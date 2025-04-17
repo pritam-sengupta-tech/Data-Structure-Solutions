@@ -12,7 +12,7 @@ class Node {
           let newNode = new Node(value);
           this.head = newNode;
           this.tail = newNode;
-          this.length = 1
+          this.length = 1;
       }
       push(value){
             // Create a new node with the given value
